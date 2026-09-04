@@ -1,0 +1,8 @@
+{
+  "name": "COMMSITE",
+  "description": "Enterprise geospatial map monitoring and site surveillance platform powered by Google Maps & Gemini AI. Features multi-temporal vertical snapshot monitoring, difference detection, Gemma 4 incident alarms, and authorized administrator portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
