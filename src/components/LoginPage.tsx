@@ -115,19 +115,16 @@ export function LoginPage({
             </button>
           )}
 
-          <div className="flex justify-center mb-2 mt-1">
-            <CommsiteLogo size="md" dark />
+          <div className="flex justify-center mb-3 mt-1">
+            <CommsiteLogo size="lg" variant="stacked" dark />
           </div>
-          <p className="text-xs text-blue-200/90 font-medium max-w-xs mx-auto mb-3">
-            Geospatial Map Monitoring &amp; Site Surveillance Platform
-          </p>
           <div className="pt-2 border-t border-slate-700/60">
             <h2 className="text-lg font-black tracking-tight text-white">
               {activeTab === 'admin'
                 ? 'Administrator Access Clearance'
                 : activeTab === 'signup'
-                ? 'Create COMMSITE Account'
-                : 'Sign In to COMMSITE'}
+                ? 'Create MTSM Account'
+                : 'Sign In to MTSM'}
             </h2>
           </div>
         </div>

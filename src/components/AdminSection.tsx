@@ -266,7 +266,8 @@ export function AdminSection({
               <Shield className="w-7 h-7" />
             </div>
             <div>
-              <div className="flex items-center gap-2 mb-1">
+              <div className="flex flex-wrap items-center gap-2 mb-1">
+                <CommsiteLogo size="sm" variant="badge" dark />
                 <span className="px-2.5 py-0.5 text-xs font-black bg-rose-900/80 text-rose-300 border border-rose-700/50 rounded uppercase tracking-wider flex items-center gap-1">
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
                   Authorized Admin Clearance
@@ -276,7 +277,7 @@ export function AdminSection({
                 </span>
               </div>
               <h2 className="text-2xl font-black tracking-tight text-white">
-                COMMSITE Executive &amp; Administrative Command Center
+                MTSM Executive &amp; Administrative Command Center
               </h2>
               <p className="text-xs text-slate-300 mt-1 max-w-2xl">
                 Global governance for user authorizations, role-based access control, security policies, audit logging, and geospatial dataset integrity.

@@ -518,7 +518,7 @@ export default function App() {
   if (authLoading) {
     return (
       <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center text-white space-y-4">
-        <CommsiteLogo size="lg" dark />
+        <CommsiteLogo size="lg" variant="stacked" dark />
         <div className="flex items-center gap-2.5 text-slate-400 text-xs font-semibold">
           <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
           <span>Verifying security clearance...</span>
