@@ -339,10 +339,10 @@ export const CommsiteLogo: React.FC<CommsiteLogoProps> = ({
         {renderEmblem('w-6 h-6')}
         <div className="flex flex-col leading-none">
           <span className="font-black text-sm tracking-wider uppercase text-blue-900 dark:text-blue-200">
-            MTSM
+            GeoGuard
           </span>
           <span className="text-[9px] font-bold text-slate-500 tracking-tight">
-            SATELLITE &amp; STREET MONITORING
+            MAP MONITOR &amp; CHANGE DETECTOR
           </span>
         </div>
       </div>
@@ -359,14 +359,14 @@ export const CommsiteLogo: React.FC<CommsiteLogoProps> = ({
             size === 'xl' ? 'text-3xl' : 'text-2xl'
           } ${dark ? 'text-white' : 'text-[#0D2847]'}`}
         >
-          MTSM
+          GeoGuard
         </h1>
         <p
           className={`font-bold tracking-tight mt-1 ${
             size === 'xl' ? 'text-sm' : 'text-xs'
           } ${dark ? 'text-blue-200' : 'text-slate-700'}`}
         >
-          Multi-temporal Satellite &amp; Street Monitoring
+          Map Monitor &amp; Change Detector
         </p>
         {showTagline && (
           <p
@@ -374,7 +374,7 @@ export const CommsiteLogo: React.FC<CommsiteLogoProps> = ({
               dark ? 'text-slate-400' : 'text-slate-500'
             }`}
           >
-            VERTICAL SNAPSHOTS &bull; AUTOMATED DIFFERENCE INSPECTION &bull; ACCIDENT DETECTION
+            MTSM VERTICAL SNAPSHOTS &bull; AUTOMATED DIFFERENCE INSPECTION &bull; ACCIDENT DETECTION
           </p>
         )}
       </div>
@@ -421,14 +421,14 @@ export const CommsiteLogo: React.FC<CommsiteLogoProps> = ({
               dark ? 'text-white' : 'text-[#0D2847]'
             }`}
           >
-            MTSM
+            GeoGuard
           </h1>
           <span
             className={`font-extrabold tracking-tight leading-none hidden sm:inline ${currentSize.subtitle} ${
               dark ? 'text-blue-200' : 'text-slate-800'
             }`}
           >
-            Multi-temporal Satellite &amp; Street Monitoring
+            Map Monitor &amp; Change Detector
           </span>
         </div>
         <span
@@ -436,7 +436,7 @@ export const CommsiteLogo: React.FC<CommsiteLogoProps> = ({
             dark ? 'text-blue-200' : 'text-slate-700'
           }`}
         >
-          Satellite &amp; Street Monitoring
+          Map Monitor &amp; Change Detector
         </span>
         {showTagline && (
           <span
@@ -444,7 +444,7 @@ export const CommsiteLogo: React.FC<CommsiteLogoProps> = ({
               dark ? 'text-slate-400' : 'text-slate-500'
             }`}
           >
-            VERTICAL SNAPSHOTS <span className="text-emerald-500 font-bold">&bull;</span> DIFFERENCE INSPECTION <span className="text-emerald-500 font-bold">&bull;</span> ACCIDENT DETECTION
+            MTSM SATELLITE &amp; STREET SURVEILLANCE <span className="text-emerald-500 font-bold">&bull;</span> VERTICAL SNAPSHOTS <span className="text-emerald-500 font-bold">&bull;</span> ACCIDENT DETECTION
           </span>
         )}
       </div>

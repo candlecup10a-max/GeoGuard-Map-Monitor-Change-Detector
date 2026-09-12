@@ -9,6 +9,7 @@ import {
   disableNetwork,
 } from 'firebase/firestore';
 import { db, auth } from '../lib/firebase';
+import firebaseConfigData from '../../firebase-applet-config.json';
 import { PlaceItem, MapSnapshot, AccidentEvent, IncidentAlarm, UserProfile, AdminAuditLog } from '../types';
 
 const PLACES_COLLECTION = 'places';
@@ -44,8 +45,9 @@ export interface FirestoreErrorInfo {
   };
 }
 
+const quotaStorageKey = `firestore_quota_exceeded_${firebaseConfigData.projectId || 'app'}_${firebaseConfigData.firestoreDatabaseId || 'default'}`;
 let isQuotaExceeded = false;
-if (typeof window !== 'undefined' && localStorage.getItem('firestore_quota_exceeded') === 'true') {
+if (typeof window !== 'undefined' && localStorage.getItem(quotaStorageKey) === 'true') {
   isQuotaExceeded = true;
   try {
     disableNetwork(db).catch(() => {});
@@ -88,7 +90,7 @@ function handleFirestoreError(
     if (!isQuotaExceeded) {
       isQuotaExceeded = true;
       try {
-        localStorage.setItem('firestore_quota_exceeded', 'true');
+        localStorage.setItem(quotaStorageKey, 'true');
       } catch (_) {}
       console.warn(
         `[Firestore Notice] Project free tier quota limit reached during ${actionName}. Disabling Firestore network to run smoothly in local mode.`

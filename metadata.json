@@ -1,6 +1,6 @@
 {
-  "name": "COMMSITE",
-  "description": "Enterprise geospatial surveillance platform for MTSM (Multi-temporal Satellite & Street Monitoring) powered by Google Maps & Gemini AI. Features 480x720 vertical snapshots, automated difference inspection, and Gemma 4 incident detection.",
+  "name": "GeoGuard Map Monitor & Change Detector",
+  "description": "Enterprise geospatial surveillance platform for GeoGuard Map Monitor & Change Detector powered by Google Maps & Gemini AI. Features 480x720 vertical snapshots, automated difference inspection, and Gemma 4 incident detection.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

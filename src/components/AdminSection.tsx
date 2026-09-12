@@ -176,7 +176,7 @@ export function AdminSection({
             Administrator Authentication Required
           </h2>
           <p className="text-sm text-slate-300 max-w-lg mx-auto mb-6">
-            The COMMSITE Admin Command Center is strictly restricted to authorized system directors and administrators. Please authenticate with your authorized credentials.
+            The GeoGuard Admin Command Center is strictly restricted to authorized system directors and administrators. Please authenticate with your authorized credentials.
           </p>
 
           <button

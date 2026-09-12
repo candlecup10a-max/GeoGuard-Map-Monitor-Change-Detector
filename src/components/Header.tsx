@@ -254,7 +254,7 @@ export const Header: React.FC<HeaderProps> = ({
                     if (onChangeView) onChangeView('login');
                   }}
                   className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-rose-50 hover:bg-rose-100 border border-rose-200 text-rose-700 text-xs font-bold shadow-sm transition-all cursor-pointer"
-                  title="Sign out of COMMSITE across all pages"
+                  title="Sign out of GeoGuard across all pages"
                 >
                   <LogOut className="w-3.5 h-3.5 text-rose-600" />
                   <span>Sign Out</span>

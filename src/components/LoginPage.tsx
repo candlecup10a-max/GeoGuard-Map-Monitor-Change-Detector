@@ -123,8 +123,8 @@ export function LoginPage({
               {activeTab === 'admin'
                 ? 'Administrator Access Clearance'
                 : activeTab === 'signup'
-                ? 'Create MTSM Account'
-                : 'Sign In to MTSM'}
+                ? 'Create GeoGuard Account'
+                : 'Sign In to GeoGuard'}
             </h2>
           </div>
         </div>

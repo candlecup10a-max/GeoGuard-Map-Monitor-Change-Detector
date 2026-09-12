@@ -756,7 +756,7 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-white border-t border-slate-200 py-3 mt-8 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span className="font-bold text-slate-700">COMMSITE &copy; {new Date().getFullYear()} - Site Intelligence &amp; Geospatial Control</span>
+          <span className="font-bold text-slate-700">GeoGuard Map Monitor &amp; Change Detector &copy; {new Date().getFullYear()}</span>
           <span className="text-[11px] text-slate-400 font-mono">
             Google Maps Platform &amp; Gemini AI Integrated &bull; Authorized Admin System
           </span>
